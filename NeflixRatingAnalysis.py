@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Download the Netflix dataset from Kaggle
 # Dataset: https://www.kaggle.com/shivamb/netflix-shows
 dataset_name = 'shivamb/netflix-shows'
-download_path = './netflix-shows'
+download_path = './DataAnalysis/Datasets/Netflix'
 
 # Download the dataset
 kaggle.api.dataset_download_files(dataset_name, path=download_path, unzip=True)
